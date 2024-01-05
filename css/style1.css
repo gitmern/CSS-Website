@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(216, 235, 250);
+    color:rgb(52, 53, 51) ;
+    font-size: 20px;
+    line-height: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    margin: 5px;
+
+}
+
+.container{
+    width:80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+#main-header{
+    background-color: #444;
+    color: aliceblue;
+
+}
+#main-header h1{
+    font-size: 40px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#navbar{
+    background-color: #99bcd4;
+    color: #fff;
+    text-align: center;
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color: black;
+    text-decoration: none;
+    padding-right: 18px;
+    font-size: 18px;
+
+}
+
+#showcase{
+    background-image: url(../images/leaf-409258_640.jpg);
+    color: rgb(189, 188, 165);
+    background-position: center right;
+    min-height: 200px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#showcase h1{
+    color: #fff;
+    font-size: 30px;
+    line-height:1.6em;
+    padding-top: 30px;
+}
+
+#main{
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#sidebar
+{
+ float: right; 
+ width: 30%;
+ background: #333;
+ color: #fff;
+ padding: 10px;
+ box-sizing: border-box;
+
+
+}
+
+#main-footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+
+}
+
+
+@media(max-width:600px)
+{
+    #main{
+        width: 100%;
+        float: none;
+    }
+
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
+
+}
